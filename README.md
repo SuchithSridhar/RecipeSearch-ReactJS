@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# RecipeSearch-ReactJS
+
+## Set up the project
+
+run "npm i" whilst in the folder to set it up
 
 ## Available Scripts
 
@@ -66,4 +70,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# RecipeSearch-ReactJS
