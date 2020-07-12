@@ -9,8 +9,8 @@ function App() {
     const [query, setQuery] = useState("Banana");
 
     const getRecipe = async () => {
-        const API_ID = process.env.REACT_APP_API_KEY;
-        const API_KEY = process.env.REACT_APP_API_ID;
+        const API_ID = process.env.REACT_APP_API_ID;
+        const API_KEY = process.env.REACT_APP_API_KEY;
         const GET_LINK = `https://api.edamam.com/search?q=${query}&app_id=${API_ID}&app_key=${API_KEY}`;
         let response = await fetch(GET_LINK);
         response = await response.json();
